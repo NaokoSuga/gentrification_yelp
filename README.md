@@ -1,2 +1,2 @@
 # gentrification_yelp
-Forecasting/Predicting Gentrification in NYC Area with Yelp Data
+Forecasting/predicting gentrification in NYC area using Yelp data. 

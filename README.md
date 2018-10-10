@@ -35,6 +35,9 @@ Yelp is a great platform to obtain real-time data which could help us understand
 <img align="left" src="final_project_gentrification_yelp_map.gif">
 <br>
 <br>
+<br>
+<br>
+<br>
 The map on the left shows how the rent (median studio rent by zipcode) has been increasing in NYC area since November 2011 to August 2018. <br>Since the median studio rent data from Zillow has a lot of missing values, especially for the older dates, the map is not complete (grey areas are with the missing values). <br>Regardless of the missing data, it is still pretty visible that the color in certain areas intensifies as we fast forward the time. 
 <br>
 <br>

@@ -5,8 +5,10 @@ Yelp is a great platform to obtain real-time data which could help us understand
 
 ## Procedure
 1) Collecting the data
-- data 
+-  
 
 ## Results
 ### Visualising the changes in NYC neighborhoods
-
+<img align="left" src="final_project_gentrification_yelp_map.gif">
+The map on the left shows how the rent has been increasing in NYC area since November 2011 to 
+<img align="left" src="final_project_gentrification_yelp_list.gif">

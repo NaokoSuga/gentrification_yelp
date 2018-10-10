@@ -48,7 +48,7 @@ The map on the left shows how the rent (median studio rent by zipcode) has been 
 <br>
 <br>
 <br>
-- Median studio rent in Manhattan, Queens, Brooklyn, and Bronx has increased by <b>21.04%</b> in average since Nov. 2011 to Aug. 2018 
+- Median studio rent in Manhattan, Queens, Brooklyn, and Bronx has increased by <b>21.04%</b> in average since Nov. 2011 to Aug. 2018 <br>
 - Roughly <b>38.71%</b> of NYC neighborhood (zipcode level) have experienced above mean ( > 21.04%) rent increase
 <br>
 <br>

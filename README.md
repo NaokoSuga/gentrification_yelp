@@ -35,6 +35,19 @@ Yelp is a great platform to obtain real-time data which could help us understand
 <img align="left" src="final_project_gentrification_yelp_map.gif">
 <br>
 <br>
-The map on the left shows how the rent (median studio rent by zipcode) has been increasing in NYC area since November 2011 to August 2018. <br>Since the median studio rent data from Zillow has a lot of missing values, especially for the older dates, the map is not complete (grey areas are with the missing values). <br>However, it can still be observed that the color in certain areas intensifies as we fast forward the time. 
+The map on the left shows how the rent (median studio rent by zipcode) has been increasing in NYC area since November 2011 to August 2018. <br>Since the median studio rent data from Zillow has a lot of missing values, especially for the older dates, the map is not complete (grey areas are with the missing values). <br>Regardless of the missing data, it is still pretty visible that the color in certain areas intensifies as we fast forward the time. 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+- Median studio rent in Manhattan, Queens, Brooklyn, and Bronx has increased by 21.04% in average since Nov. 2011 to Aug. 2018 
+- Roughly 38.71% of NYC neighborhood (zipcode level) have experienced above mean ( > 21.04%) rent increase
+<br>
 <br>
 <img align="right" src="final_project_gentrification_yelp_list.gif">
+<br>
+Figure on the right shows the lists of NYC neighorhoods with fastest and slowest rent increase.

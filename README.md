@@ -10,19 +10,19 @@ Yelp is a great platform to obtain real-time data which could help us understand
 - Yelp data (up to 1000 businesses for each zipcode in NYC are) was obtained using Yelp API
 - Demographic data, including education level, racial diversity of the neighborhood, income level, was obtained from American Community Survey, Census 2016 (by zipcode level as well). 
 
-2) EDA
-- How were the missing values treated? - 
+2) Data Cleaning and EDA
 <br>
-**Rent**
-<br>
-Median studio rent data from zillow has monthly rent values from March 2010 to September 2018. However it has a lot of missing values especially before November 2011; hence, I omitted values before November 2011.
-<br>
-**Yelp**
-<br>
+<i>- How were the missing values treated?</i> <br>
+    <b>Rent:</b><br>
+    Median studio rent data from zillow has monthly rent values from March 2010 to September 2018. However it has a lot of missing values especially before November 2011; hence, I omitted values before November 2011.
+    <br>
+    <b>Yelp</b>
+    <br>
     a 
-<br>
-**Census**
-<br>
+    <br>
+    <b>Census</b>
+    <br>
+
 *Please refer to the below result section for more details.*
 
 3) Using Linear Regression to Study the Correlation between business increase and rent increase

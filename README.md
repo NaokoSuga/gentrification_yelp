@@ -55,7 +55,7 @@ The map on the left shows how the rent (median studio rent by zipcode) has been 
 <img align="right" src="final_project_gentrification_yelp_list.gif">
 <br>
 Figure on the right shows the lists of NYC neighorhoods with fastest and slowest rent increase.
-<br><br><br><br><br><br><br><br><br><br>
+<br><br>Now we know that the rent has been increasing a lot in certain areas - have there been business changes in these areas as well? <br><br><br><br><br><br>
 <h3> Business Changes in the Areas with Fastest and Slowest Rent Increase </h3>
 <img align="right" src="final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
 Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with fast rent increase (Williamsburg and Bushwick) and slow rent increase (East Harlem and Chelsea/Clinton). <br>

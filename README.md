@@ -70,6 +70,15 @@ Figures on the right show the cumulative growth (= percentage increase) of new b
 <br>
 Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bushwick (cumulative sum over time). Bars in Williamsburg and Cafes in Bushwick seem to lead the others. 
 <b>Can we use this to predict the rent...?</b>
-
+<br><br>
 <h4>Williamsburg</h4>
+<img src="final_project_gentrificaition_yelp_williamsburg.png">
+<h4>bushwick</h4>
+<img src="final_project_gentrificaition_yelp_bushwick.png">
 
+<h3>Predict the Future Rent with Time Series Analysis</h3>
+<b>Now that we saw that there are some correlations between business growth and rent increase, can we use time series analysis to predict the future rent?</b>
+<br>
+・ as the rent varies area-by-area, I am goint to focus only on Williamsburg
+<br>
+・ use number of bars as exogenous parameter of time series

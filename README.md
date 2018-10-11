@@ -71,6 +71,14 @@ Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bus
 <br><br><br>
 <h4>Williamsburg</h4>
 <img src="final_project_gentrificaition_yelp_williamsburg.png">
+<img align="left" src="final_project_gentrificaition_yelp_pvals.png" width="260" height="80">
+<img align="left" src="final_project_gentrificaition_yelp_pvals_comb.png" width="270" height="120">
+<img align="right" src="final_project_gentrificaition_yelp_pvals_comp.png" width="280" height="120">
+<br><br><br>
+p-values are all far less than 0.05.<br>
+・ we can reject the null hypothesis that there is no relationship between these parameters and rent<br>
+・ we can conclude that there is some correlation between the # of bars/chinese restaurants/bakeries and studio rent <br>
+Looking at r-squares, the chinese restaurant model performs the best<br>
 <h4>bushwick</h4>
 <img src="final_project_gentrificaition_yelp_bushwick.png">
 

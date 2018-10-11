@@ -65,3 +65,8 @@ Figures on the right show the cumulative growth (= percentage increase) of new b
 <h4>Is there any correlation between business growth and rent increase?? </h4>
 ・ we just saw that both rent and businesses have been growing in these areas - does increase in rent and business actually correlate to each other?
 
+<h3>Cases of the Areas with the Fast Rent Growth - Williamsburg and Bushwick</h3>
+<img align="left" src="final_project_gentrificaition_yelp_williamsburg_bushwick_top10" width="500" height="200">
+<br>
+Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bushwick (cumulative sum over time). Bars in Williamsburg and Cafes in Bushwick seem to lead the others. 
+<b>Can we use this to predict the rent...?</b>

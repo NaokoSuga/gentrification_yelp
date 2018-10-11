@@ -55,3 +55,4 @@ The map on the left shows how the rent (median studio rent by zipcode) has been 
 <img align="right" src="final_project_gentrification_yelp_list.gif">
 <br>
 Figure on the right shows the lists of NYC neighorhoods with fastest and slowest rent increase.
+<br>

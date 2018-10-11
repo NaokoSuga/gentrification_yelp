@@ -100,6 +100,6 @@ Random Forest classifier performs the best overall It's performing questionably 
 ・ demographic parameters like education level could highly be correlated to these<br>
 ・ if number of cafes, bars etc.. actually correlates to the rent, it also could cause data leakage<br>
 <br>
-<b>Next Step.....</b>
+<b>Next Steps.....</b><br>
 Could we generalize the regression model as well?<br>
 Use these parameters above and machine learning models (Decision Tree Regression) to predict the housing prices

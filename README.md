@@ -18,9 +18,7 @@ Yelp is a great platform to obtain real-time data which could help us understand
         <br>
         <b>Yelp</b>
         <br>
-        a 
-        <br>
-        <b>Census</b>
+        mean values are used for the missing values
         <br>
         <i>Please refer to the below result section for more details.</i>
 
@@ -90,7 +88,6 @@ use machine learning algorithm to detect if the area is:<br>
 <b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
 <b>・ Higher-income:</b> the areas that had higher incomes in 1990.<br>
 ・ for classification, yelp data are combined with demographic data from 2016 Census<br>
-<i>Source: http://furmancenter.org/files/sotc/Part_1_Gentrification_SOCin2015_9JUNE2016.pdf </i>
 <img align="center" src="final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
 <img align="left" src="final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
 <img align="left" src="final_project_gentrificaition_yelp_AUC.png" width="300" height="250">

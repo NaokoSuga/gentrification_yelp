@@ -70,3 +70,6 @@ Figures on the right show the cumulative growth (= percentage increase) of new b
 <br>
 Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bushwick (cumulative sum over time). Bars in Williamsburg and Cafes in Bushwick seem to lead the others. 
 <b>Can we use this to predict the rent...?</b>
+
+<h4>Williamsburg</h4>
+

@@ -30,7 +30,7 @@ Yelp is a great platform to obtain real-time data which could help us understand
 
 ## Results
 ### Visualising the changes in NYC neighborhoods
-<img align="left" src="final_project_gentrification_yelp_map.gif">
+<img align="left" src="images_README/final_project_gentrification_yelp_map.gif">
 <br>
 <br>
 <br>
@@ -50,12 +50,13 @@ The map on the left shows how the rent (median studio rent by zipcode) has been 
 - Roughly <b>38.71%</b> of NYC neighborhood (zipcode level) have experienced above mean ( > 21.04%) rent increase
 <br>
 <br>
-<img align="right" src="final_project_gentrification_yelp_list.gif">
+<img align="right" src="images_README/final_project_gentrification_yelp_list.gif">
 <br>
 Figure on the right shows the lists of NYC neighorhoods with fastest and slowest rent increase.
 <br><br>Now we know that the rent has been increasing a lot in certain areas - have there been business changes in these areas as well? <br><br><br><br><br><br>
 <h3> Business Changes in the Areas with Fastest and Slowest Rent Increase </h3>
-<img align="right" src="final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
+<
+align="right" src="final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
 Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with fast rent increase (Williamsburg and Bushwick) and slow rent increase (East Harlem and Chelsea/Clinton). <br>
 <br>
 ・ businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% (3rd from the bottom) in East Harlem, and was <b>13.04</b>% in Chelsea/Clinton
@@ -64,30 +65,30 @@ Figures on the right show the cumulative growth (= percentage increase) of new b
 ・ we just saw that both rent and businesses have been growing in these areas - does increase in rent and business actually correlate to each other?
 
 <h3>Cases of the Areas with the Fast Rent Growth - Williamsburg and Bushwick</h3>
-<img align="left" src="final_project_gentrificaition_yelp_williamsburg_bushwick_top10.png" width="500" height="200">
+<img align="left" src="images_README/final_project_gentrificaition_yelp_williamsburg_bushwick_top10.png" width="500" height="200">
 <br>
 Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bushwick (cumulative sum over time). Bars in Williamsburg and Cafes in Bushwick seem to lead the others. 
 <b>Can we use this to predict the rent...?</b>
 <br><br><br>
 <h4>Williamsburg</h4>
-<img src="final_project_gentrificaition_yelp_williamsburg.png">
-<img align="left" src="final_project_gentrificaition_yelp_pvals.png" width="260" height="80">
-<img align="left" src="final_project_gentrificaition_yelp_pvals_comb.png" width="270" height="120">
-<img align="right" src="final_project_gentrificaition_yelp_pvals_comp.png" width="280" height="120">
+<img src="images_README/final_project_gentrificaition_yelp_williamsburg.png">
+<img align="left" src="images_README/final_project_gentrificaition_yelp_pvals.png" width="260" height="80">
+<img align="left" src="images_README/final_project_gentrificaition_yelp_pvals_comb.png" width="270" height="120">
+<img align="right" src="images_README/final_project_gentrificaition_yelp_pvals_comp.png" width="280" height="120">
 <br><br><br><br><br>
 p-values are all far less than 0.05.<br>
 ・ we can reject the null hypothesis that there is no relationship between these parameters and rent<br>
 ・ we can conclude that there is some correlation between the # of bars/chinese restaurants/bakeries and studio rent <br>
 Looking at r-squares, the chinese restaurant model performs the best<br>
 <h4>bushwick</h4>
-<img src="final_project_gentrificaition_yelp_bushwick.png">
+<img src="images_README/final_project_gentrificaition_yelp_bushwick.png">
 
 <h3>Predict the Future Rent with Time Series Analysis</h3>
 <b>Now that we saw that there are some correlations between business growth and rent increase, can we use time series analysis to predict the future rent?</b>
 <br>
 ・ as the rent varies area-by-area, I am goint to focus only on Williamsburg <br>
 ・ use number of bars as exogenous parameter of time series
-<img src="Screen Shot 2018-10-11 at 11.44.45 AM.png">
+<img src="images_README/Screen Shot 2018-10-11 at 11.44.45 AM.png">
 
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>
 <b>We've only looked at Williamsburg, and Bushwick, but can we generalize it to the whole NYC area?</b><br>
@@ -96,9 +97,9 @@ Looking at r-squares, the chinese restaurant model performs the best<br>
 <b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
 <b>・ Higher-income:</b> the areas that had higher incomes in 1990.<br>
 ・ for classification, yelp data are combined with demographic data from 2016 Census<br>
-<img align="center" src="final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
-<img align="left" src="final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
-<img align="left" src="final_project_gentrificaition_yelp_AUC.png" width="300" height="250">
+<img align="center" src="images_README/final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
+<img align="left" src="images_README/final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
+<img align="left" src="images_README/final_project_gentrificaition_yelp_AUC.png" width="300" height="250">
 <br><br><br><br><br><br><br><br><br><br><br>
 Random Forest classifier performs the best overall It's performing questionably good possibly there is data leakage: <br>
 ・ gentrification is classified based on "income" and "rent"<br>

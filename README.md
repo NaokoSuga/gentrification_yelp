@@ -94,6 +94,7 @@ use machine learning algorithm to detect if the area is:<br>
 <img align="center" src="final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
 <img align="left" src="final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
 <img align="left" src="final_project_gentrificaition_yelp_AUC.png" width="300" height="250">
+<br><br><br><br><br><br><br><br><br><br>
 Random Forest classifier performs the best overall It's performing questionably good possibly there is data leakage: <br>
 ・ gentrification is classified based on "income" and "rent"<br>
 ・ demographic parameters like education level could highly be correlated to these<br>

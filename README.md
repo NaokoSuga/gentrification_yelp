@@ -85,9 +85,12 @@ Figures on the left show top 10 and 5 growing businesses in Williamsburg and Bus
 
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>
 <b>We've only looked at Williamsburg, and Bushwick, but can we generalize it to the whole NYC area?</b>
-use machine learning algorithm to detect if the area is:
+use machine learning algorithm to detect if the area is:<br>
 <b>・ Gentrifying:</b> the area that was low-income in 1990 and experienced rent growth above the median SBA rent growth between 1990 and 2010-2014
-<b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth
-<b>・ Higher-income:</b> the areas that had higher incomes in 1990.
-・ for this, some of yelp data are combined with demographic data from 2016 Census
+<b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
+<b>・ Higher-income:</b> the areas that had higher incomes in 1990.<br>
+・ for this, some of yelp data are combined with demographic data from 2016 Census<br>
 <i>Source: http://furmancenter.org/files/sotc/Part_1_Gentrification_SOCin2015_9JUNE2016.pdf </i>
+<img align="center" src="final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
+<img align="left" src="final_project_gentrificaition_yelp_random_forest.png" width="500" height="400">
+<img align="right" src="final_project_gentrificaition_yelp_AUC.png" width="300" height="300">

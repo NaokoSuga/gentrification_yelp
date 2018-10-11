@@ -88,11 +88,12 @@ Looking at r-squares, the chinese restaurant model performs the best<br>
 <br>
 ・ as the rent varies area-by-area, I am goint to focus only on Williamsburg <br>
 ・ use number of bars as exogenous parameter of time series
-<img src="images_README/Screen Shot 2018-10-11 at 11.44.45 AM.png">
+<img src="images_README/final_project_gentrification_yelp_time_series.png">
 
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>
 <b>We've only looked at Williamsburg, and Bushwick, but can we generalize it to the whole NYC area?</b><br>
-・use machine learning algorithm to detect if the area is:<br>
+・
+machine learning algorithm to detect if the area is:<br>
 <b>・ Gentrifying:</b> the area that was low-income in 1990 and experienced rent growth above the median SBA rent growth between 1990 and 2010-2014<br>
 <b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
 <b>・ Higher-income:</b> the areas that had higher incomes in 1990.<br>

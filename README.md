@@ -58,10 +58,10 @@ Figure on the right shows the lists of NYC neighorhoods with fastest and slowest
 <br><br><br><br><br><br><br><br><br><br>
 <h3> Business Changes in the Areas with Fastest and Slowest Rent Increase </h3>
 <img align="right" src="final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
-Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with fast rent increase (Williamsburg and Bushwick) and slow rent increase (East Harlem and Chelsea/Clinton). 
+Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with fast rent increase (Williamsburg and Bushwick) and slow rent increase (East Harlem and Chelsea/Clinton). <br>
 <br>
--businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% (3rd from the bottom) in East Harlem, and was <b>13.04</b>% in Chelsea/Clinton
+・ businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% (3rd from the bottom) in East Harlem, and was <b>13.04</b>% in Chelsea/Clinton
 <br>
 <h4>Is there any correlation between business growth and rent increase?? </h4>
-- we just saw that both rent and businesses have been growing in these areas - does increase in rent and business actually correlate to each other?
+・ we just saw that both rent and businesses have been growing in these areas - does increase in rent and business actually correlate to each other?
 

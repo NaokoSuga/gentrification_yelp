@@ -6,9 +6,10 @@ Yelp is a great platform to obtain real-time data which could help us understand
 ## Procedure and Project Overview
 1) Collecting the data <br>
 **Data Sources:** <a href="https://www.zillow.com/research/data/">Zillow</a>, <a href="https://www.yelp.com/developers">Yelp API</a>, and <a href="https://www.census.gov/acs/www/data/data-tables-and-tools/data-profiles/2016/">American Community Survey, Census 2016</a>
-- Median studio price data by zip code in NYC area was obtained from Zillow (this project focuses on the studio rental prices with the assumption that gentrifying area tends to attract younger generations).
-- Yelp data (up to 1,000 businesses for each zip code in NYC are) was obtained using Yelp API.
-- Demographic data, including education level, racial diversity of the neighborhood, income level, was obtained from the American Community Survey, Census 2016 (by zip code level as well). 
+<UL>
+<LI>Median studio price data by zip code in NYC area was obtained from Zillow (this project focuses on the studio rental prices with the assumption that gentrifying area tends to attract younger generations).
+<LI>Yelp data (up to 1,000 businesses for each zip code in NYC are) was obtained using Yelp API.
+<LI>Demographic data, including education level, racial diversity of the neighborhood, income level, was obtained from the American Community Survey, Census 2016 (by zip code level as well). </UL>
 
 2) Data Cleaning and EDA <br>
 <i>- How were the missing values treated?</i>
@@ -29,7 +30,7 @@ Yelp is a great platform to obtain real-time data which could help us understand
 5) Using Machine Learning Classification Algorithms to Detect Gentrification
 
 ## Results
-### Visualising the changes in NYC neighborhoods
+### Visualising the Changes in NYC Neighborhoods
 <img align="left" src="images_README/final_project_gentrification_yelp_map.gif">
 <br>
 <br>
@@ -80,7 +81,7 @@ p-values are all far less than 0.05.<br>
 ・ we can reject the null hypothesis that there is no relationship between these parameters and rent.<br>
 ・ we can conclude that there is some correlation between the # of bars/Chinese restaurants/bakeries and studio rent. <br>
 Looking at r-squares, the Chinese restaurant model performed the best.<br>
-<h4>bushwick</h4>
+<h4>Bushwick</h4>
 <img src="images_README/final_project_gentrificaition_yelp_bushwick.png">
 
 <h3>Predicting the Future Rent with Time Series Analysis</h3>
@@ -92,20 +93,22 @@ Looking at r-squares, the Chinese restaurant model performed the best.<br>
 
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>
 <b>Only Williamsburg and Bushwick have been examined in depth so far - could this be generalized and applied across the entire NYC area? </b><br>
-・machine learning algorithms are used to detect if the area is:<br>
+Machine learning algorithms are used to detect if the area is:<br>
 <b>・ Gentrifying:</b> the area that was low-income in 1990 and experienced rent growth above the median SBA rent growth between 1990 and 2010-2014<br>
-<b>・ Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
-<b>・ Higher-income:</b> the areas that had higher incomes in 1990<br>
-・ for classification, Yelp data was combined with demographic data from the 2016 Census<br>
+<UL>
+<LI><b>Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
+<LI><b>Higher-income:</b> the areas that had higher incomes in 1990<br>
+<LI>for classification, Yelp data was combined with demographic data from the 2016 Census<br>
+    </UL>
 <img align="center" src="images_README/final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_AUC.png" width="300" height="250">
 <br><br><br><br><br><br><br><br><br><br><br>
 Random Forest classifier performed the best overall; however, it performed questionably well, possibly because there was data leakage: <br>
-・ gentrification was classified based on "income" and "rent"<br>
-・ demographic parameters like education level could be highly correlated to these<br>
-・ if the number of cafes and bars actually correlates to the rent price, it could also cause data leakage<br>
+・ Gentrification was classified based on "income" and "rent".<br>
+・ Demographic parameters like education level could be highly correlated to these.<br>
+・ If the number of cafes and bars actually correlates to the rent price, it could also cause data leakage.<br>
 <br>
 <b>Next Steps</b><br>
 ・Determine if we generalize the regression model as well?<br>
-・Use these parameters above and machine learning models (Decision Tree Regression) to predict housing prices
+・Use these parameters above and machine learning models (Decision Tree Regression) to predict housing prices.

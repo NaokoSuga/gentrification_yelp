@@ -60,10 +60,10 @@ The figure on the right shows the lists of NYC neighorhoods with the fastest and
 <img align="right" src="images_README/final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
 Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with faster rent increase (Williamsburg and Bushwick) and slower rent increase (East Harlem and Chelsea/Clinton). <br>
 <br>
-・ businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% in East Harlem (3rd slowest rent growth), and was <b>13.04</b>% in Chelsea/Clinton.
+・ Businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% in East Harlem (3rd slowest rent growth), and was <b>13.04</b>% in Chelsea/Clinton.
 <br>
 <h4>Correlation between Business Growth and Rent Increase </h4>
-・ as observed, both rent and businesses have been growing in these areas - we must determine whether or not increase in rent and business actually correlate to each other.
+・ As observed, both rent and businesses have been growing in these areas - we must determine whether or not increase in rent and business actually correlate to each other.
 
 <h3>Cases of Selected Areas with High Rent Growth - Williamsburg and Bushwick</h3>
 <img align="left" src="images_README/final_project_gentrificaition_yelp_williamsburg_bushwick_top10.png" width="500" height="200">
@@ -77,9 +77,11 @@ Figures on the left show the top 10 fastest-growing businesses in Williamsburg a
 <img align="left" src="images_README/final_project_gentrificaition_yelp_pvals_comb.png" width="270" height="120">
 <img align="right" src="images_README/final_project_gentrificaition_yelp_pvals_comp.png" width="280" height="120">
 <br><br><br><br><br>
-p-values are all far less than 0.05.<br>
-・ we can reject the null hypothesis that there is no relationship between these parameters and rent.<br>
-・ we can conclude that there is some correlation between the # of bars/Chinese restaurants/bakeries and studio rent. <br>
+P-values are all far less than 0.05.<br>
+<UL>
+<LI>The null hypothesis that there is no relationship between these parameters and rent is rejected.<br>
+<LI>It can be concluded that there is some correlation between the number of bars, Chinese restaurants, and bakeries, and studio rent. <br>
+    </UL>
 Looking at r-squares, the Chinese restaurant model performed the best.<br>
 <h4>Bushwick</h4>
 <img src="images_README/final_project_gentrificaition_yelp_bushwick.png">
@@ -87,8 +89,8 @@ Looking at r-squares, the Chinese restaurant model performed the best.<br>
 <h3>Predicting the Future Rent with Time Series Analysis</h3>
 <b>Now that we saw that there is some correlation between business growth and rent increase, time series analysis will be used to predict future rent?</b>
 <br>
-・ as the rent varies area-by-area, I have decided to focus only on Williamsburg as an example. <br>
-・ used number of bars as exogenous parameter of the ARIMAX model.
+・ As the rent varies area-by-area, I have decided to focus only on Williamsburg as an example. <br>
+・ The number of bars is used as exogenous parameter of the ARIMAX model.
 <img src="images_README/final_project_gentrification_yelp_time_series.png">
 
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>

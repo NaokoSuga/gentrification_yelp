@@ -100,8 +100,8 @@ Machine learning algorithms are used to detect if the area is:<br>
 <UL>
 <LI><b>Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
 <LI><b>Higher-income:</b> the areas that had higher incomes in 1990<br>
-<LI>for classification, Yelp data was combined with demographic data from the 2016 Census<br>
     </UL>
+For classification, Yelp data was combined with demographic data from the 2016 Census<br>
 <img align="center" src="images_README/final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_AUC.png" width="300" height="250">

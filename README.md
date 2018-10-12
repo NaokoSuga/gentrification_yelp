@@ -16,10 +16,10 @@ Yelp is a great platform to obtain real-time data which could help us understand
         <b>Rent:</b><br>
         Median studio rent data from Zillow has monthly rent values from March 2010 to September 2018. However, it had a lot of missing values, especially before November 2011; hence, values before November 2011 have been omitted.
         <br>
-        <b>Yelp</b>
+        <b>Yelp:</b>
         <br>
-        mean values were used in place of the missing values
-        <br>
+        Mean values were used in place of the missing values.
+        <br><br>
         <i>Please refer to the below result section for more details.</i>
 
 3) Using Linear Regression to Study the Correlation between Business Growth and Rent Increase

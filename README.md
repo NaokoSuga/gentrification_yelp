@@ -6,9 +6,9 @@ Yelp is a great platform to obtain real-time data which could help us understand
 ## Procedure and Project Overview
 1) Collecting the data <br>
 **Data Sources:** <a href="https://www.zillow.com/research/data/">Zillow</a>, <a href="https://www.yelp.com/developers">Yelp API</a>, and <a href="https://www.census.gov/acs/www/data/data-tables-and-tools/data-profiles/2016/">American Community Survey, Census 2016</a>
-- Median studio price data by zipcode in NYC area was obtained from zillow (for this project, I am going to focus on the studio rental prices with the assumption that gentrifying area tends to attract younger generations)
-- Yelp data (up to 1000 businesses for each zipcode in NYC are) was obtained using Yelp API
-- Demographic data, including education level, racial diversity of the neighborhood, income level, was obtained from American Community Survey, Census 2016 (by zipcode level as well). 
+- Median studio price data by zip code in NYC area was obtained from zillow (for this project, I am going to focus on the studio rental prices with the assumption that gentrifying area tends to attract younger generations)
+- Yelp data (up to 1000 businesses for each zip code in NYC are) was obtained using Yelp API
+- Demographic data, including education level, racial diversity of the neighborhood, income level, was obtained from American Community Survey, Census 2016 (by zip code level as well). 
 
 2) Data Cleaning and EDA <br>
 <i>- How were the missing values treated?</i>
@@ -36,7 +36,8 @@ Yelp is a great platform to obtain real-time data which could help us understand
 <br>
 <br>
 <br>
-The map on the left shows how the rent (median studio rent by zipcode) has been increasing in NYC area since November 2011 to August 2018. <br>Since the median studio rent data from Zillow has a lot of missing values, especially for the older dates, the map is not complete (grey areas are with the missing values). <br>Regardless of the missing data, it is still pretty visible that the color in certain areas intensifies as we fast forward the time. 
+The map on the left shows how the rent (median studio rent by 
+code) has been increasing in NYC area since November 2011 to August 2018. <br>Since the median studio rent data from Zillow has a lot of missing values, especially for the older dates, the map is not complete (grey areas are with the missing values). <br>Regardless of the missing data, it is still pretty visible that the color in certain areas intensifies as we fast forward the time. 
 <br>
 <br>
 <br>
@@ -47,7 +48,7 @@ The map on the left shows how the rent (median studio rent by zipcode) has been 
 <br>
 <br>
 - Median studio rent in Manhattan, Queens, Brooklyn, and Bronx has increased by <b>21.04%</b> in average since Nov. 2011 to Aug. 2018 <br>
-- Roughly <b>38.71%</b> of NYC neighborhood (zipcode level) have experienced above mean ( > 21.04%) rent increase
+- Roughly <b>38.71%</b> of NYC neighborhood (zip code level) have experienced above mean ( > 21.04%) rent increase
 <br>
 <br>
 <img align="right" src="images_README/final_project_gentrification_yelp_list.gif">

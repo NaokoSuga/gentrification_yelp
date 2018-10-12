@@ -56,8 +56,7 @@ Since the median studio rent data from Zillow has a lot of missing values, espec
 The figure on the right shows the lists of NYC neighorhoods with the fastest and slowest rent increases.
 <br><br>While we are aware that the rent has been increasing more in certain areas, the next step would be to determine if there have been any changes to the businesses in these areas as well. <br><br><br><br><br><br>
 <h3> Business Changes in the Areas with the Fastest and Slowest Rent Increase </h3>
-<
-align="right" src="final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
+<img align="right" src="images_README/final_project_gentrificaition_yelp_cumulative_growth.png" width="500" height="200">
 Figures on the right show the cumulative growth (= percentage increase) of new businesses by month in the neighborhoods with faster rent increase (Williamsburg and Bushwick) and slower rent increase (East Harlem and Chelsea/Clinton). <br>
 <br>
 ・ businesses seem to grow faster in the areas where the rent has been growing rapidly - the rent has increased by <b>39.37</b>% (3rd in the NYC area) in Bushwick and <b>24.00</b>% (11th) in Williamsburg, while it was <b>5.48</b>% in East Harlem (3rd slowest rent growth), and was <b>13.04</b>% in Chelsea/Clinton.

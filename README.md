@@ -1,7 +1,7 @@
 # Forecasting/Predicting Gentrification in NYC Area with Yelp Data 
 ## Project Scope
 
-Yelp is a great platform to obtain real-time data which could help us understand the socio-economic changes in neighborhoods. In the first part of the study, housing price was used as the measure of neighborhood change and see if the change in businesses correlates to the increase and decrease in housing prices in the metropolitan area in NY. In the second part, gentrification in NYC is predicted using Yelp data, combined with other demographic measures from the 2016 Census.
+Yelp is a great platform to obtain real-time data, which could help us understand the socio-economic changes in neighborhoods. In the first part of the study, housing price was used as the measure of neighborhood change and to see if the change in businesses correlates to the increase and decrease in housing prices in the metropolitan area in NY. In the second part, gentrification in NYC is predicted using Yelp data, combined with other demographic measures from the 2016 Census.
 
 ## Procedure and Project Overview
 1) Collecting the data <br>
@@ -96,12 +96,12 @@ Looking at r-squares, the Chinese restaurant model performed the best.<br>
 <h3>Detecting Gentrification using Machine Learning Algorithms</h3>
 <b>Only Williamsburg and Bushwick have been examined in depth so far - could this be generalized and applied across the entire NYC area? </b><br>
 Machine learning algorithms are used to detect if the area is:<br>
-<b>・ Gentrifying:</b> the area that was low-income in 1990 and experienced rent growth above the median SBA rent growth between 1990 and 2010-2014<br>
 <UL>
+<LI><b>Gentrifying:</b> the area that was low-income in 1990 and experienced rent growth above the median SBA rent growth between 1990 and 2010-2014<br>
 <LI><b>Non-gentrifying:</b> the areas that started off as low-income in 1990 but experienced more modest growth<br>
 <LI><b>Higher-income:</b> the areas that had higher incomes in 1990<br>
     </UL>
-For classification, Yelp data was combined with demographic data from the 2016 Census<br>
+For classification, Yelp data was combined with demographic data from the 2016 Census.<br>
 <img align="center" src="images_README/final_project_gentrificaition_yelp_classification_comparison.png" width="400" height="80">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_random_forest.png" width="500" height="500">
 <img align="left" src="images_README/final_project_gentrificaition_yelp_AUC.png" width="300" height="250">
